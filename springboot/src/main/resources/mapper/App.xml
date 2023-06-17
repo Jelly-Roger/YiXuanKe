@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.easy_select_course.springboot.mapper.CourseSelectMapper">
+    <insert id="insertAppForGrade" parameterType="com.easy_select_course.springboot.entity.courseSevice.AppScoreUpdate" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO AppForGrade (Tno,Sno, Cid, procScore,examScore,finalScore,scoreRank,submit_time)
+        VALUES (#{Tno},#{Sno},#{Cid},#{procScore},#{examScore},#{finalScore},#{scoreRank},#{submit_time})
+    </insert>
+</mapper>
