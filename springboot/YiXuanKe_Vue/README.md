@@ -1,4 +1,4 @@
-# second
+# YiXuanKe_Vue
 
 ## Project setup
 ```
